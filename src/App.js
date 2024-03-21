@@ -14,7 +14,7 @@ function App() {
   console.log(process.env);
 
   const newsApi = async () => {
-   const proxyUrl = "https://cors-anywhere.herokuapp.com/";
+   const proxyUrl = "https://inshorts-clone-app.onrender.com/";
 
       const news = await axios.get(
         `${proxyUrl}https://newsapi.org/v2/top-headlines?country=in&apiKey=7d89f29a853144c0abb1f7c00a5c6ec5&pageSize=${loadmore}&category=${category}`
